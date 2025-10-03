@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f0e1; /* светло-бежевый фон */
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    max-width: 600px;
+    background: #fdf6f0; /* светлый бежевый */
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 3px solid #d2b48c; /* коричневая рамка */
+}
+
+h1 {
+    color: #8b5e3c; /* коричнево-красный */
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #a67c52; /* коричневый оттенок */
+    margin-top: 20px;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #5c4033; /* темно-коричневый */
+}
+
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+a {
+    color: #8b5e3c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
